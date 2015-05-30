@@ -21,36 +21,38 @@ ul{
 margin:0;
 padding:0;
 }
-/*video*/
+
 .vidContainer {
-	width: 100%;
-	height: 100%;
-	position: relative;
+	position: absolute;
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
 }
-.vid {
-    position: absolute;
-    top: 0; left:0;
+video {
+	position: absolute;
+	z-index: -1;
+}
+video.StretchtoFit {
 	width: 100%;
-	height: 100%;
-    z-index: -1;
 }
 .content {
-    position:absolute;
-    top:0; left:0;
-    background: black;
-    color:white;
+  position:absolute;
+  top:0; left:0;
+  background: black;
+  color:white;
 }
 /*banner*/
 .banner{
-background: linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    );
-min-height:720px;
-background-size:cover;
+	background: linear-gradient(
+	      rgba(0, 0, 0, 0.3),
+	      rgba(0, 0, 0, 0.3)
+	    );
+	height: 100%;
+	background-size:cover;
 }
 .banner-mobile{
-	
+
 }
 .header{
 padding-top:3em;

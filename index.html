@@ -37,12 +37,13 @@
 <body>
 <!---->
 <div id="banner" class="banner">
-	<div class='vidContainer'>
-    <div class='vid'>
-        <video style="width:inherit;" autoplay loop>
-			<source src="videos/bg.mp4" type="video/mp4">
-		</video>
-    </div>
+	<div class='vidContainer' id="vidContainer">
+    <!--<div class='vid' id="vid">-->
+        <!--<video style="width:inherit;" autoplay loop>-->
+        <video class="StretchtoFit" autoplay loop>
+			    <source src="videos/bg.mp4" type="video/mp4">
+		    </video>
+    <!--</div>-->
 	</div>
 	 <div class="container">
 		 <div class="header">
@@ -93,7 +94,7 @@
                   <li id="artist18" class="circle"><img id="artist18Image" onclick="play18()" onmouseover="playOverlay(18)" onmouseout="returnArtist(18)" class="artist" src="images/artists/artist18.png" /></li>
                   <li id="artist19" class="circle"><img id="artist19Image" onclick="play19()" onmouseover="playOverlay(19)" onmouseout="returnArtist(19)" class="artist" src="images/artists/artist19.png" /></li>
                   <li id="artist20" class="circle"><img id="artist20Image" onclick="play20()" onmouseover="playOverlay(20)" onmouseout="returnArtist(20)" class="artist" src="images/artists/artist20.png" /></li>
-                  <li id="artist21" class="circle"><img id="artist21Image" onclick="play21()" onmouseover="playOverlay(21)" onmouseout="returnArtist(21)" class="artist" src="images/artists/artist21.png" /></li>nge
+                  <li id="artist21" class="circle"><img id="artist21Image" onclick="play21()" onmouseover="playOverlay(21)" onmouseout="returnArtist(21)" class="artist" src="images/artists/artist21.png" /></li>
               </ul>
           </div>
 			 <div class="clearfix"></div>
@@ -250,34 +251,23 @@
 		 <p class="wow bounceIn" data-wow-delay="0.4s">Copyright &copy; 2015 Recordz All rights reserved.</p>
 	 </div>
 </div>
-<!---->
-            <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
-            <script type="text/javascript" src="js/scrollingcarousel.js"></script>
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    $('#carousel-demo1').scrollingCarousel();
+</body>
+  <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+  <script type="text/javascript" src="js/scrollingcarousel.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function() {
 
-                    $('#carousel-demo2').scrollingCarousel( {
-                        scrollerAlignment : 'vertical',
-                        autoScroll: true
-                    });
-                });
-            </script>
-            <script type="text/javascript">
-                    $(document).ready(function() {
-                            /*
-                            var defaults = {
-                            containerID: 'toTop', // fading element id
-                            containerHoverID: 'toTopHover', // fading element hover id
-                            scrollSpeed: 1200,
-                            easingType: 'linear'
-                            };
-                            */
-                    $().UItoTop({ easingType: 'easeOutQuart' });
-            });
-            </script>
-			<script type="text/javascript" src="js/songs.js"></script>
-      <script type="text/javascript" src="js/mobile.js"></script>
+          $(".banner").css("height", $(window).height());
 
- </body>
- </html>
+          $('#carousel-demo1').scrollingCarousel();
+
+          $('#carousel-demo2').scrollingCarousel( {
+              scrollerAlignment : 'vertical',
+              autoScroll: true
+          });
+      });
+  </script>
+  <script type="text/javascript" src="js/songs.js"></script>
+  <script type="text/javascript" src="js/mobile.js"></script>
+  <script type="text/javascript" src="js/videoResize.js"></script>
+</html>
