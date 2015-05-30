@@ -1,6 +1,5 @@
 var audioElement = document.createElement('audio');
 
-// TODO: SPECIFY SONGS FOR ARTISTS
 function play(){
 	audioElement.setAttribute('src', 'songs/stay.mp3');
   audioElement.load();
