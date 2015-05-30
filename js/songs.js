@@ -111,7 +111,7 @@ var tempImageSource;
 function playOverlay(i){
 	var id = "artist"+i+"Image";
 	tempImageSource = document.getElementById(id).src;
-	document.getElementById(id).src="images/play.png";
+	document.getElementById(id).src="images/playSong.png";
 }
 
 function returnArtist(i){
