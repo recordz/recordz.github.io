@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recordz</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Recordz" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<!--animated-css-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<!--/animated-css-->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+</head>
+<body>
+<!---->
+<div id="banner" class="banner">
+	<div class='vidContainer'>
+    <div class='vid'>
+        <video style="width:inherit;" autoplay loop>
+			<source src="videos/bg.mp4" type="video/mp4">
+		</video>
+    </div>
+	</div>
+	 <div class="container">
+		 <div class="header">
+			 <div class="top-menu">
+			 <span class="menu"></span>
+				 <ul>
+				 <!--<li><a class="scroll" href="#about">About</a></li>-->
+				 <li><a style="font-family: Copperplate, 'Copperplate Gothic Light', fantasy;" href="mailto:contactrecordz@gmail.com?Subject=Contact%20Recordz" target="_blank">Contact</a></li>
+				 </ul>
+			 </div>
+			  <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+
+			 <div class="clearfix"></div>
+		 </div>
+		 <div class="banner-info">
+			 <div class=".col-md-6 .col-md-offset-3 banner-text wow fadeInRight" data-wow-delay="0.5s" style="margin-top: 100px" align="center">
+				 <!--<h3>introducing the next music player</h3>-->
+				 <h1 style="font-family: Copperplate, 'Copperplate Gothic Light', fantasy;font-size:80px;">RECORD<font color="red">Z</font></h1>
+				<a class="download" style="font-family: Copperplate, 'Copperplate Gothic Light', fantasy;" href="#">COMING SOON</a>
+			 </div>
+			<br>
+        <div style="margin-top: 140px" id="carousel-demo1" class="carousel-demo">
+              <ul>
+                  <li id="artist" class="circle"><img id="artist1Image" onclick="play()" onmouseover="playOverlay(1)" onmouseout="returnArtist(1)" class="artist" src="images/artists/artist.png" /></li>
+                  <li id="artist2" class="circle"><img id="artist2Image" onclick="play2()" onmouseover="playOverlay(2)" onmouseout="returnArtist(2)" class="artist" src="images/artists/artist2.png" /></li>
+                  <li id="artist3" class="circle"><img id="artist3Image" onclick="play3()" onmouseover="playOverlay(3)" onmouseout="returnArtist(3)" class="artist" src="images/artists/artist3.png" /></li>
+                  <li id="artist4" class="circle"><img id="artist4Image" onclick="play4()" onmouseover="playOverlay(4)" onmouseout="returnArtist(4)" class="artist" src="images/artists/artist4.png" /></li>
+                  <li id="artist5" class="circle"><img id="artist5Image" onclick="play5()" onmouseover="playOverlay(5)" onmouseout="returnArtist(5)" class="artist" src="images/artists/artist5.png" /></li>
+                  <li id="artist6" class="circle"><img id="artist6Image" onclick="play6()" onmouseover="playOverlay(6)" onmouseout="returnArtist(6)" class="artist" src="images/artists/artist6.png" /></li>
+                  <li id="artist7" class="circle"><img id="artist7Image" onclick="play7()" onmouseover="playOverlay(7)" onmouseout="returnArtist(7)" class="artist" src="images/artists/artist7.png" /></li>
+                  <li id="artist8" class="circle"><img id="artist8Image" onclick="play8()" onmouseover="playOverlay(8)" onmouseout="returnArtist(8)" class="artist" src="images/artists/artist8.png" /></li>
+                  <li id="artist9" class="circle"><img id="artist9Image" onclick="play9()" onmouseover="playOverlay(9)" onmouseout="returnArtist(9)" class="artist" src="images/artists/artist9.png" /></li>
+                  <li id="artist10" class="circle"><img id="artist10Image" onclick="play10()" onmouseover="playOverlay(10)" onmouseout="returnArtist(10)" class="artist" src="images/artists/artist10.png" /></li>
+                  <li id="artist11" class="circle"><img id="artist11Image" onclick="play11()" onmouseover="playOverlay(11)" onmouseout="returnArtist(11)" class="artist" src="images/artists/artist11.png" /></li>
+				          <li id="artist12" class="circle"><img id="artist12Image" onclick="play12()" onmouseover="playOverlay(12)" onmouseout="returnArtist(12)" class="artist" src="images/artists/artist12.png" /></li>
+				          <li id="artist13" class="circle"><img id="artist13Image" onclick="play13()" onmouseover="playOverlay(13)" onmouseout="returnArtist(13)" class="artist" src="images/artists/artist13.png" /></li>
+        				  <li id="artist14" class="circle"><img id="artist14Image" onclick="play14()" onmouseover="playOverlay(14)" onmouseout="returnArtist(14)" class="artist" src="images/artists/artist14.png" /></li>
+        				  <li id="artist15" class="circle"><img id="artist15Image" onclick="play15()" onmouseover="playOverlay(15)" onmouseout="returnArtist(15)" class="artist" src="images/artists/artist15.png" /></li>
+                  <li id="artist16" class="circle"><img id="artist16Image" onclick="play16()" onmouseover="playOverlay(16)" onmouseout="returnArtist(16)" class="artist" src="images/artists/artist16.png" /></li>
+                  <li id="artist17" class="circle"><img id="artist17Image" onclick="play17()" onmouseover="playOverlay(17)" onmouseout="returnArtist(17)" class="artist" src="images/artists/artist17.png" /></li>
+                  <li id="artist18" class="circle"><img id="artist18Image" onclick="play18()" onmouseover="playOverlay(18)" onmouseout="returnArtist(18)" class="artist" src="images/artists/artist18.png" /></li>
+                  <li id="artist19" class="circle"><img id="artist19Image" onclick="play19()" onmouseover="playOverlay(19)" onmouseout="returnArtist(19)" class="artist" src="images/artists/artist19.png" /></li>
+                  <li id="artist20" class="circle"><img id="artist20Image" onclick="play20()" onmouseover="playOverlay(20)" onmouseout="returnArtist(20)" class="artist" src="images/artists/artist20.png" /></li>
+                  <li id="artist21" class="circle"><img id="artist21Image" onclick="play21()" onmouseover="playOverlay(21)" onmouseout="returnArtist(21)" class="artist" src="images/artists/artist21.png" /></li>nge
+              </ul>
+          </div>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!---->
+<div id="features" class="features">
+	 <div class="container">
+		 <div class="features-head">
+			 <h4>APP OVERVIEW</h4>
+			 <h3>List of amazing features</h3>
+		 </div>
+		 <div class="features-section">
+			 <div class="col-md-3 feature-grid">
+				 <img class="wow bounceIn" data-wow-delay="0.4s" src="images/icon1.png" alt=""/>
+				 <h3>Responsive</h3>
+				 <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+			 </div>
+			 <div class="col-md-3 feature-grid">
+				 <img class="wow bounceIn" data-wow-delay="0.4s" src="images/icon2.png" alt=""/>
+				 <h3>Customizable</h3>
+				 <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+			 </div>
+			 <div class="col-md-3 feature-grid">
+				 <img class="wow bounceIn" data-wow-delay="0.4s" src="images/icon3.png" alt=""/>
+				 <h3>Lovely design</h3>
+				 <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+			 </div>
+			 <div class="col-md-3 feature-grid">
+				 <img class="wow bounceIn" data-wow-delay="0.4s" src="images/icon4.png" alt=""/>
+				 <h3>Mobile Friendly</h3>
+				 <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!---->
+<div id="about" class="about">
+	 <div class="container">
+		 <div class="about-top">
+			 <div class="col-md-6 about-device wow fadeInLeft" data-wow-delay="0.5s">
+				 <img align="center" src="images/mytracksmymusic.png" style="width:75%;" alt=""/>
+			 </div>
+			 <div class="col-md-6 about-device-info wow fadeInRight" data-wow-delay="0.5s">
+				 <div class="device-text">
+					 <h3>Music</h3>
+					 <p><b>Discover</b> songs you love, <b>create</b> playlists, set a background, and just <b>listen</b>.<br><br>
+              Like one of your friends playlists? No problem, just follow their playlist(s), and it will show up in your music library.<br><br>
+              <b>Artists</b> can upload tracks and Record<font color="red">z</font> places those tracks next to top mainstream artists tracks. After the artist has built up their reputation, the Record<font color="red">z</font> team will contact the artist to reward them for their work.</p>
+				 </div>
+				 <!--<div class="about-list">
+					 <ul>
+						 <li><a href="#"><span class="abt1"></span>Awesome desgn</a></li>
+						 <li><a href="#"><span class="abt2"></span>Fully responsive</a></li>
+						 <li><a href="#"><span class="abt3"></span>Retina ready</a></li>
+						 <li><a href="#"><span class="abt4"></span>Tons of features  and easy to use</a></li>
+					 </ul>
+				 </div>-->
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<div class="about-bottom">
+	 <div class="container">
+		 <div class="col-md-6 about-customize wow fadeInRight" data-wow-delay="0.5s">
+			 <div class="device-text-bottom">
+					<h3>Personalize</h3>
+					<p>Record<font color="red">z</font> revamps many social media features, including pictures, videos, music, playlists, blogging, and allows the user to customize his or her own profile page.<br><br>
+            Independent and underground artists are struggling in the music industry, these are the people dreaming, Record<font color="red">z</font> is for these people. </p>
+			 </div>
+		 </div>
+		 <div class="col-md-6 about-device-bottom wow fadeInLeft" data-wow-delay="0.5s">
+				<div align="center"><img src="images/profile.gif" style="width:68.5%;" alt=""/></div>
+		 </div>
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<div class="about">
+	 <div class="container">
+		 <div class="col-md-6 about-device-bottom wow fadeInRight" data-wow-delay="0.5s">
+				<div align="center"><img src="images/newfeed.png" style="width:45%;" alt=""/></div>
+		 </div>
+		<div class="col-md-6 about-customize wow fadeInLeft" data-wow-delay="0.5s">
+			<div class="device-text-bottom">
+					<h3>Connect</h3>
+					<p>Connect with your friends, discover tracks, blog, post pictures or videos, and make yourself known. Record<font color="red">z</font> has you covered with a sleek user interface. </p>
+			</div>
+		</div>
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
+  <script src="js/responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider2").responsiveSlides({
+        auto: true,
+        pager: true,
+        speed: 300,
+        namespace: "callbacks",
+      });
+    });
+  </script>
+<!---->
+<div id="testimonials" class="pricing">
+	 <div class="container">
+		 <!-- start slider -->
+		 <div class="quote-grids">
+			 <div class="slider">
+				 <ul class="rslides" id="slider2">
+					 <li>
+					     <div class="col-md-6 quote-exp">
+							  <p>"I want all artists on the same playing field. Everyone has a opportunity on Recordz to tell their story."</p>
+							  <div class="pic1">
+								 <img src="images/nick.png" alt=""/>
+							  </div>
+							  <div class="pic-info">
+									<h5>Nick Ruddy</h5>
+									<a href="#">CEO and Co-founder, Recordz</a>
+							  </div>
+							  <div class="clearfix"></div>
+						 </div>
+						 <div class="col-md-6 quote-exp">
+							  <p>"Music is limitless. Be the artist that has the chance. Recordz will provide you with the same platform as it does for the most popular artists."</p>
+							  <div class="pic1">
+								 <img src="images/tejas.png" alt=""/>
+							  </div>
+							  <div class="pic-info">
+									<h5>Tejas Kelkar</h5>
+									<a href="#">COO and Co-founder, Recordz</a>
+							  </div>
+							  <div class="clearfix"></div>
+						 </div>
+					      <div class="clearfix"></div>
+					  </li>
+				  </ul>
+			   </div>
+			   <!-- end slider -->
+		  </div>
+	 </div>
+</div>
+<!---->
+<div class="footer text-center">
+	 <div class="container">
+		 <div class="social">
+			 <a href="#"><span class="twitter"></span></a>
+			 <a href="#"><span class="facebook"></span></a>
+			 <!--<a href="#"><span class="linkedin"></span></a>-->
+		 </div>
+		 <p class="wow bounceIn" data-wow-delay="0.4s">Copyright &copy; 2015 Recordz All rights reserved.</p>
+	 </div>
+</div>
+<!---->
+            <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+            <script type="text/javascript" src="js/scrollingcarousel.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('#carousel-demo1').scrollingCarousel();
+
+                    $('#carousel-demo2').scrollingCarousel( {
+                        scrollerAlignment : 'vertical',
+                        autoScroll: true
+                    });
+                });
+            </script>
+            <script type="text/javascript">
+                    $(document).ready(function() {
+                            /*
+                            var defaults = {
+                            containerID: 'toTop', // fading element id
+                            containerHoverID: 'toTopHover', // fading element hover id
+                            scrollSpeed: 1200,
+                            easingType: 'linear'
+                            };
+                            */
+                    $().UItoTop({ easingType: 'easeOutQuart' });
+            });
+            </script>
+			<script type="text/javascript" src="js/songs.js"></script>
+      <script type="text/javascript" src="js/mobile.js"></script>
+
+ </body>
+ </html>
