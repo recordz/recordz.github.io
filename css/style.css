@@ -52,7 +52,7 @@ video.StretchtoFit {
 	background-size:cover;
 }
 .banner-mobile{
-
+	
 }
 .header{
 padding-top:3em;
@@ -290,7 +290,7 @@ background: url(../images/line.png) no-repeat 0% 100%;
 }
 .device-text p{
 color:#aeadad;
-font-size:1.3em;
+font-size:1.5em;
 line-height:1.5em;
 font-weight:400;
 margin-top:1em;
@@ -360,7 +360,7 @@ background: url(../images/line.png) no-repeat 0% 100%;
 }
 .device-text-bottom p{
 color:#aeadad;
-font-size:1.3em;
+font-size:1.5em;
 line-height:1.5em;
 font-weight:400;
 margin-top:1em;
