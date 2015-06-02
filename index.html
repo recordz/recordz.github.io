@@ -67,7 +67,7 @@
 				 <!--<h3>introducing the next music player</h3>-->
 				 <h1 style="font-family: Copperplate, 'Copperplate Gothic Light', fantasy;font-size:80px;">RECORD<font color="red">Z</font></h1>
 				<a class="download" style="font-family: Copperplate, 'Copperplate Gothic Light', fantasy;" href="#">COMING SOON</a>
-			 </div>
+			</div>
 			<br>
         <div style="margin-top: 140px" id="carousel-demo1" class="carousel-demo">
               <ul>
@@ -94,7 +94,7 @@
                   <li id="artist21" class="circle"><img id="artist21Image" onclick="play21()" onmouseover="playOverlay(21)" onmouseout="returnArtist(21)" class="artist" src="images/artists/artist21.png" /></li>
               </ul>
           </div>
-			 <div class="clearfix"><h4 align="center"><font color="white"><a style="color:white;" href="mailto:contactrecordz@gmail.com">Contact Us</a> to be featured here.</h4></font></div>
+			 <div class="clearfix"><!--<h4 align="center"><font color="white"><a style="color:white;" href="mailto:contactrecordz@gmail.com">Contact Us</a> to be featured here.</h4></font>--></div>
 		 </div>
 	 </div>
 </div>
@@ -123,7 +123,7 @@
 			 <div class="col-md-3 feature-grid">
 				 <img class="wow bounceIn" data-wow-delay="0.4s" src="images/opportunity.png" alt=""/>
 				 <h3>Opportunity</h3>
-				 <p>We promote, advertise, and market independed and underground artists free of charge.</p>
+				 <p>We promote, advertise, and market independent and underground artists free of charge.</p>
 			 </div>
 			 <div class="clearfix"></div>
 		 </div>
@@ -242,6 +242,15 @@
 </body>
   <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
   <script type="text/javascript" src="js/scrollingcarousel.js"></script>
+  <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript'>
+    (function($) {
+      window.fnames = new Array();
+      window.ftypes = new Array();
+      fnames[0]='EMAIL';ftypes[0]='email';
+    }(jQuery));
+    var $mcj = jQuery.noConflict(true);
+  </script>
   <script type="text/javascript">
       $(document).ready(function() {
 
@@ -258,4 +267,23 @@
   <script type="text/javascript" src="js/songs.js"></script>
   <script type="text/javascript" src="js/mobile.js"></script>
   <script type="text/javascript" src="js/videoResize.js"></script>
+
+  <!--
+
+  <div id="mc_embed_signup">
+    <form action="https://github.us11.list-manage.com/subscribe/post?u=52c90f952f45fc80da6da9c78&amp;id=f3e0ad9017" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <div class="mc-field-group">
+      <input type="email" value="" placeholder="Give us your email for updates!" name="EMAIL" class="required email" id="mce-EMAIL">
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
+      </div>
+    </form>
+  </div>
+
+  -->
 </html>
