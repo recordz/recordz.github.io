@@ -17,6 +17,12 @@ h1,h2,h3,h4,h5,h6{
 p{
 	margin:0;
 }
+email-input {
+	background-color: rgba(0,0,0,0.1);
+	color: white;
+	border: black;
+	border-width: 2px;
+}
 ul{
 margin:0;
 padding:0;
@@ -114,9 +120,6 @@ padding:0 2px 10px 2px;
 display:block;
 text-decoration:none;
 margin:0 0.5em;
-}
-.top-menu ul li a:hover,.top-menu ul li.active a{
-border-bottom:2px solid #ff0000;
 }
 .top-menu ul li a:hover{
 color:#ff0000;
