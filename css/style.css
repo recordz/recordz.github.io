@@ -21,7 +21,9 @@ ul{
 margin:0;
 padding:0;
 }
-
+.titleFont{
+	font-family: 'Balthazar', serif;
+}
 .vidContainer {
 	position: absolute;
 	top:0%;
@@ -52,7 +54,7 @@ video.StretchtoFit {
 	background-size:cover;
 }
 .banner-mobile{
-	
+
 }
 .header{
 padding-top:3em;
