@@ -111,10 +111,18 @@ var tempImageSource;
 function playOverlay(i){
 	var id = "artist"+i+"Image";
 	tempImageSource = document.getElementById(id).src;
-	document.getElementById(id).src="images/playSong.png";
+	//document.getElementById(id).src="images/playSong.png";
+	var elements = document.getElementsByClassName(id);
+	for (var i = 0; i < elements.length; i++) {
+		elements[i].src = "images/playSong.png";
+	}
 }
 
 function returnArtist(i){
 	var id = "artist"+i+"Image";
-	document.getElementById(id).src = tempImageSource;
+	//document.getElementById(id).src = tempImageSource;
+	var elements = document.getElementsByClassName(id);
+	for (var i = 0; i < elements.length; i++) {
+		elements[i].src = tempImageSource;
+	}
 }
