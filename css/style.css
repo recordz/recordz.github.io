@@ -27,8 +27,8 @@ ul{
 margin:0;
 padding:0;
 }
-.titleFont{
-	font-family: 'Balthazar', serif;
+.copperplate{
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 }
 .vidContainer {
 	position: absolute;

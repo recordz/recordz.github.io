@@ -46,7 +46,7 @@
 		 <div class="header">
 			 <div class="top-menu">
 				 <ul>
-				 <li><a class="titleFont" href="mailto:contactrecordz@gmail.com?Subject=Contact%20Recordz" target="_blank">Contact</a></li>
+				 <li><a class="copperplate" href="mailto:contactrecordz@gmail.com?Subject=Contact%20Recordz" target="_blank">Contact</a></li>
 				 </ul>
 			 </div>
 			  <!-- script-for-menu -->
@@ -62,8 +62,8 @@
 		 <div class="banner-info">
 			 <div class=".col-md-6 .col-md-offset-3 banner-text wow fadeInRight" data-wow-delay="0.5s" style="margin-top: 100px" align="center">
 				 <!--<h3>introducing the next music player</h3>-->
-				 <h1 class="titleFont" style="font-size:80px;">RECORD<font color="red">Z</font></h1>
-				<a class="download titleFont" href="#">COMING SOON</a>
+				 <h1 class="copperplate" style="font-size:80px;">RECORD<font color="red">Z</font></h1>
+				<a class="download copperplate" id="downloadButton" onmouseover="subscribe()" onmouseout="comingSoon()" href="http://eepurl.com/bpgLIX" target="_blank">COMING SOON</a>
 			</div>
 			<br>
         <div style="margin-top: 140px" id="carousel-demo1" class="carousel-demo">
@@ -174,20 +174,6 @@
 		 <div class="clearfix"></div>
 	 </div>
 </div>
-<!---->
-  <script src="js/responsiveslides.min.js"></script>
-  <script>
-    // You can also use "$(window).load(function() {"
-    $(function () {
-      $("#slider2").responsiveSlides({
-        auto: true,
-        pager: true,
-        speed: 300,
-        namespace: "callbacks",
-      });
-    });
-  </script>
-<!---->
 <div id="testimonials" class="pricing">
 	 <div class="container">
 		 <!-- start slider -->
@@ -239,15 +225,8 @@
 </body>
   <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
   <script type="text/javascript" src="js/scrollingcarousel.js"></script>
-  <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-  <script type='text/javascript'>
-    (function($) {
-      window.fnames = new Array();
-      window.ftypes = new Array();
-      fnames[0]='EMAIL';ftypes[0]='email';
-    }(jQuery));
-    var $mcj = jQuery.noConflict(true);
-  </script>
+  <script type="text/javascript" src="https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+  <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"https://mc.us11.list-manage.com","uuid":"52c90f952f45fc80da6da9c78","lid":"f3e0ad9017"}) })</script>
   <script type="text/javascript">
       $(document).ready(function() {
 
@@ -260,27 +239,16 @@
               autoScroll: true
           });
       });
+
+      function subscribe() {
+        $('#downloadButton').text("SUBSCRIBE FOR UPDATES");
+      }
+
+      function comingSoon() {
+        $('#downloadButton').text("COMING SOON");
+      }
   </script>
   <script type="text/javascript" src="js/songs.js"></script>
   <script type="text/javascript" src="js/mobile.js"></script>
   <script type="text/javascript" src="js/videoResize.js"></script>
-
-  <!--
-
-  <div id="mc_embed_signup">
-    <form action="https://github.us11.list-manage.com/subscribe/post?u=52c90f952f45fc80da6da9c78&amp;id=f3e0ad9017" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-    <div class="mc-field-group">
-      <input type="email" value="" placeholder="Give us your email for updates!" name="EMAIL" class="required email" id="mce-EMAIL">
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-      <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-      </div>
-      </div>
-    </form>
-  </div>
-
-  -->
 </html>
