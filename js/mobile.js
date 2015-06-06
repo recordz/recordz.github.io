@@ -16,4 +16,6 @@ if(isMobile) {
   banner.innerHTML = '<div style="padding-top:20%;" align="center"><h1 style="font-family:Copperplate,\'Copperplate Gothic Light\', fantasy;font-size:400%;color:#fff">RECORD<font color="red">Z</font></h1><a class="download" style="font-size:100%;font-family: Copperplate, \'Copperplate Gothic Light\', fantasy;margin-top:15%" href="#">COMING SOON</a><br><a class="download" href="http://eepurl.com/bpgLIX" style="font-size:100%;font-family: Copperplate, \'Copperplate Gothic Light\', fantasy;margin-top:5%;" href="#">Subscribe For Updates</a></div>';
 }
 
-document.getElementById('splashscreen').style.display = 'none';
+setTimeout(function() {
+	document.getElementById('splashscreen').style.display = 'none';
+}, 1300);
