@@ -7,7 +7,7 @@
 * Licensed under the terms of the MIT and GPL licenses:
 *   http://www.opensource.org/licenses/mit-license.php
 *   http://www.gnu.org/licenses/gpl.html
-*   
+*
 *	This plugin utilises Corey Dutson's jQuery Plugin template
 *	Check it out here:
 *		http://wallofscribbles.com/2011/my-jquery-plugin-is-open-season
