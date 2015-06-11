@@ -46,6 +46,11 @@
 	</div>
 	 <div class="container">
 		 <div class="header">
+       <div class="top-menu-left">
+         <ul>
+           <li><a id="about" onmouseover="missionStatement()" onmouseout="about()" class="copperplate" href="#">About</a></li>
+         </ul>
+       </div>
 			 <div class="top-menu">
 				 <ul>
 				 <li><a class="copperplate" href="mailto:contactrecordz@gmail.com?Subject=Contact%20Recordz" target="_blank">Contact</a></li>
@@ -260,6 +265,14 @@
 
       function comingSoon() {
         $('#downloadButton').text("COMING SOON");
+      }
+
+      function missionStatement() {
+        $('#about').text("Recordz has the obligation to discover underground and independent artists.");
+      }
+
+      function about() {
+        $('#about').text("About");
       }
   </script>
   <script type="text/javascript" src="js/songs.js"></script>
