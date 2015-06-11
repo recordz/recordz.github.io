@@ -13,7 +13,7 @@ if(isMobile) {
 	banner.style.width = '100%';
 	banner.style.overflow = 'hidden';
 	//banner.style.background = "linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));";
-  banner.innerHTML = '<div style="padding-top:20%;" align="center"><h1 style="font-family:Copperplate,\'Copperplate Gothic Light\', fantasy;font-size:400%;color:#fff">RECORD<font color="red">Z</font></h1><a class="download" style="font-size:100%;font-family: Copperplate, \'Copperplate Gothic Light\', fantasy;margin-top:15%" href="#">COMING SOON</a><br><a class="download" href="http://eepurl.com/bpgLIX" style="font-size:100%;font-family: Copperplate, \'Copperplate Gothic Light\', fantasy;margin-top:5%;" href="#">Subscribe For Updates</a></div>';
+  banner.innerHTML = '<div style="padding-top:20%;" align="center"><h1 style="font-family:Copperplate,\'Copperplate Gothic Light\', fantasy;font-size:400%;color:#fff">RECORD<font color="red">Z</font></h1><a class="download" style="font-size:100%;font-family: Copperplate, \'Copperplate Gothic Light\', fantasy;margin-top:15%" href="#">COMING SOON</a><br><a class="download" href="mailto:contactrecordz@gmail.com?Subject=Contact%20Recordz" style="font-size:100%;font-family: Copperplate, \'Copperplate Gothic Light\', fantasy;margin-top:5%;" href="#">Contact Us</a><br><a class="download" href="http://eepurl.com/bpgLIX" style="font-size:100%;font-family: Copperplate, \'Copperplate Gothic Light\', fantasy;margin-top:5%;" href="#">Subscribe For Updates</a></div>';
 }
 
 setTimeout(function() {
